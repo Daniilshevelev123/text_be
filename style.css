@@ -1,0 +1,265 @@
+.background {
+    display: grid;
+    grid-template-rows: 235px auto;
+    width: 100%;
+    height: auto;
+    background-color: #4344e5;
+    font-family: Montserrat, sans-serif;
+    
+}
+.first_sentence {
+    margin-top: 55px;
+    width: 100%;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.two_sentence {
+    margin-top: 20px;
+    width: auto;
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.third_sentence {
+    margin-top: 20px;
+    width: auto;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+
+
+.listiki {
+    display: grid;
+    grid-template-columns: 265px 265px 265px 265px;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 60px;
+}
+.list {
+    display: grid;
+    grid-template-rows: 220px auto;
+    border-top: 20px solid chocolate;
+    height: 365px;
+    width: 265px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.list_img_1 {
+    height: 200px;
+    width: 200px;
+    background-image: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/1a5ab7d4a85a55df9eaccc2b/111.jpg');
+    margin-top: 20px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+    justify-self: center;
+}
+.list_img_2 {
+    height: 200px;
+    width: 200px;
+    background-image: url('//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/fb158ab0203d5b3badbd9378/252d200a-8959-423d-fbab-f15b7ec48c91.jpg');
+    margin-top: 20px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+    justify-self: center;
+}
+.list_img_3 {
+    height: 200px;
+    width: 200px;
+    background-image: url('//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/f6c3cd4b4a395002a41c9c2e/1aa76ce4-c80e-79cc-6e66-90ad0b90f8b8.jpg');
+    margin-top: 20px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+    justify-self: center;
+}
+.list_img_4 {
+    height: 200px;
+    width: 200px;
+    background-image: url('//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/71913628290d5ef18f66b750/eaefb184-118f-ca57-fc59-035cb2c2fd10.jpg');
+    margin-top: 20px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+    justify-self: center;
+}
+.list_img_5 {
+    height: 200px;
+    width: 200px;
+    background-image: url('//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/74f83172c22f57878677993f/gf.jpg');
+    margin-top: 20px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+    justify-self: center;
+}
+.list_img_6 {
+    height: 200px;
+    width: 200px;
+    background-image: url('//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/219731a142f05f4699714244/b9f0b03c-6ff9-c5c4-bf4d-ca9b38786de3.jpg');
+    margin-top: 20px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+    justify-self: center;
+}
+.list_img_7 {
+    height: 200px;
+    width: 200px;
+    background-image: url('//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/eac68617485053ceb7714ff9/gfgf.png');
+    margin-top: 20px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+    justify-self: center;
+}
+.list_img_8 {
+    height: 200px;
+    width: 200px;
+    background-image: url('//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2f77ced364e5570f80ea37af/2ca4591d-bc67-1991-4bf0-5e124c3c6169.jpg');
+    margin-top: 20px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+    justify-self: center;
+}
+.description {
+    text-align: center;
+}
+.shrift {
+    font-size: 1.875rem;
+    margin-top: 15px;
+    color: #4344e5;
+    text-transform: uppercase;
+}
+.more {
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+
+
+button {
+    width: 340px;
+    height: 80px;
+    border: 3px solid rgb(210, 105, 30);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+button:hover {
+    background-color: rgba(210, 105, 30, 1);
+    transition: 0.2s;
+}
+
+.footer {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-color: #333333;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+@media (min-width: 320px) and (max-width: 374px){
+    .background{
+        display: flex;
+        flex-direction: column;
+    }
+    .greetings {
+        margin-bottom: 20px;
+    }
+    .listiki {
+        grid-template-columns: 265px;
+    }
+    button {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px){
+    .background{
+        display: flex;
+        flex-direction: column;
+    }
+    .greetings {
+        margin-bottom: 20px;
+    }
+    .listiki {
+        grid-template-columns: 305px;
+    }
+    button {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+    .background{
+        display: flex;
+        flex-direction: column;
+    }
+    .greetings {
+        margin-bottom: 20px;
+    }
+    .list {
+        width: 305px;
+    }
+    .listiki {
+        grid-template-columns: 305px;
+    }
+    button {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .background{
+        display: flex;
+        flex-direction: column;
+    }
+    .greetings {
+        margin-bottom: 20px;
+    }
+    .list {
+        width: 305px;
+    }
+    .listiki {
+        grid-template-columns: 305px 305px;
+    }
+    button {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+}
